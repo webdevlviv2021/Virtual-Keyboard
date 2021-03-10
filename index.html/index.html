@@ -1,32 +1,23 @@
+
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Virtual Keyboard w/ HTML, CSS & JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Keyboard</title>
-    <link rel="stylesheet" href="../keyboard/keyboard.css">
+    <meta charset="utf-8">
     <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="../keyboard/keyboard.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
 <body>
-    <h1>Virtual Keyboard w/ HTML, CSS & JavaScript</h1>
-    <h2>Featuress</h2>
+    <h1>Virtual Keyboard w/ HTML, CSS & JS</h1>
+    <h3>Features</h3>
     <ul>
         <li>Easy to integrate</li>
         <li>Responsive</li>
-        <li>Vanilla Js (<strong>no libraries required!</strong>)</li>
+        <li>Vanilla JS (<strong>no libraries required!</strong>)</li>
     </ul>
-    <textarea style="position: absolute; top: 130px; right: 30px; width: 300px;"> </textarea>
+    <textarea class="use-keyboard-input" style="position: absolute; top: 130px; right: 30px; width: 300px;"></textarea>
 
-    <div class="keyboard">
-        <div class="keyboard--keys">
-<button type="button" class="keyboard--keys">a</button>
-<button type="button" class="keyboard--keys">
-    <i class="material-icons">backspace</i>
-</button>
-
-        </div>
-    </div>
     <script src="/keyboard/keyboard.js"></script>
-        </body>
-</html>
+</body>
